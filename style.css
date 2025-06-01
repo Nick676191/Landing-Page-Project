@@ -1,4 +1,17 @@
 body {
+    font-family: Roboto;
     display: flex;
     flex-direction: column;
+}
+
+.top-container {
+    background-color: #1F2937;
+}
+
+.third-container {
+    background-color: #E5E7EB;
+}
+
+footer {
+    margin-top: auto;
 }
