@@ -1,11 +1,21 @@
 body {
-    font-family: Roboto;
+    /* height margin and overflow parameters added from
+       other project that I worked on that was similar */
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }
 
 .top-container {
     background-color: #1F2937;
+    color: white;
 }
 
 .third-container {
