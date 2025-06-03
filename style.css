@@ -7,10 +7,10 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    width: auto;
+    flex: 1 0 auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
 }
 
 .top-container {
