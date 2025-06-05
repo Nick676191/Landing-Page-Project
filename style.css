@@ -1,16 +1,13 @@
 body {
     /* height margin and overflow parameters added from
        other project that I worked on that was similar */
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
-    justify-content: flex-start;
-    align-items: stretch;
-    width: 100%;
+    width: auto;
 }
 
 .top-container {
@@ -23,5 +20,7 @@ body {
 }
 
 footer {
+    display: flex;
     margin-top: auto;
+    width: 100%;
 }
