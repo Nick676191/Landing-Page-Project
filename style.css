@@ -10,13 +10,16 @@ body {
     width: auto;
 }
 
+/* code for the header of the top container*/
+
 .top-container {
     background-color: #1F2937;
+    padding: 0 250px;
 }
 
 .header-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .top-container span {
@@ -34,6 +37,42 @@ ul, a {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+/* code for the content box of the top container */
+
+.content-box1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.image-box {
+    height: auto;
+    width: 500px;
+    background-color: grey;
+}
+
+.text-box {
+    width: 400px;
+    height: auto;
+    text-wrap: wrap;
+}
+
+.text-box .large-head {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.text-box .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up button{
+    color: #F9FAF8;
+    background-color: #3882F6;
 }
 
 .third-container {
