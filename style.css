@@ -3,7 +3,6 @@ body {
        other project that I worked on that was similar */
     min-height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -127,6 +126,22 @@ ul, a {
     background-color: #E5E7EB;
     display: flex;
     flex: 1 0;
+}
+
+.content-box3 {
+    margin: 75px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: normal;
+    color: #1F2937;
+}
+
+.quote-owner {
+    font-weight: 800;
+    text-align: end;
 }
 
 /* code for the fourth container */
