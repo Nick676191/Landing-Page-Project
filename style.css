@@ -80,6 +80,11 @@ ul, a {
 .sign-up button{
     color: #F9FAF8;
     background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    padding: 6px 20px;
+    margin: 5px 0;
+    font-weight: 600;
 }
 
 /* code for the second container */
@@ -152,6 +157,36 @@ ul, a {
     background-color: white;
     display: flex;
     flex: 1 0;
+    justify-content: center;
+    padding: 50px 75px;
+}
+
+.content-box4 {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    color: #F9FAF8;
+}
+
+.small-header {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.right-side {
+    align-self: flex-end;
+}
+
+.right-side button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 600;
 }
 
 /* code for the footer */
