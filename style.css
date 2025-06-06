@@ -193,9 +193,14 @@ ul, a {
 
 footer {
     background-color: #1F2937;
-    color: #F9FAF8;
     display: flex;
     flex: 1 0;
-    margin-top: auto;
+    padding: 30px 0;
     width: 100%;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    margin-left: auto;
+    margin-right: auto;
 }
