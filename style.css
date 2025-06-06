@@ -8,13 +8,15 @@ body {
     display: flex;
     flex-direction: column;
     width: auto;
+    padding: 0 450px;
+    background-color: black;
 }
 
 /* code for the header of the top container*/
 
 .top-container {
     background-color: #1F2937;
-    padding: 0 250px;
+    padding: 0 100px;
 }
 
 .header-links {
@@ -49,7 +51,7 @@ ul, a {
 
 .image-box {
     height: auto;
-    width: 500px;
+    width: 350px;
     background-color: grey;
 }
 
@@ -75,11 +77,29 @@ ul, a {
     background-color: #3882F6;
 }
 
+/* code for the second container */
+
+.second-container {
+    background-color: white;
+}
+
+/* code for the third container */
+
 .third-container {
     background-color: #E5E7EB;
 }
 
+/* code for the fourth container */
+
+.fourth-container {
+    background-color: white;
+}
+
+/* code for the footer */
+
 footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     margin-top: auto;
     width: 100%;
