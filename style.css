@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     width: auto;
-    padding: 0 450px;
+    padding: 0 375px;
     background-color: black;
 }
 
@@ -103,6 +103,7 @@ ul, a {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 75px;
 }
 
 .card1, .card2, .card3, .card4 {
