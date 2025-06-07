@@ -47,18 +47,8 @@ ul, a {
     display: flex;
     justify-content: space-between;
     margin: 75px 0;
-}
-
-.image-box {
-    height: auto;
-    width: 350px;
-    background-color: grey;
-    color: white;
-    /* code to align the text vertically (can remove once the pic
-       is linked to the HTML code instead) */
-    text-align: center;
-    display: grid;
-    align-items: center;
+    gap: 40px;
+    align-items: stretch;
 }
 
 .text-box {
