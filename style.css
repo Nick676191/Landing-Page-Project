@@ -21,6 +21,7 @@ body {
 .header-links {
     display: flex;
     justify-content: space-between;
+    margin: 10px 0 0 0;
 }
 
 .top-container span {
@@ -45,7 +46,7 @@ ul, a {
 .content-box1 {
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
+    margin: 75px 0;
 }
 
 .image-box {
