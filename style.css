@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 10px 0 0 0;
+    flex-wrap: wrap;
 }
 
 .top-container span {
@@ -49,6 +50,7 @@ ul, a {
     margin: 75px 0;
     gap: 40px;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .text-box {
@@ -169,6 +171,7 @@ ul, a {
     border-radius: 10px;
     width: 100%;
     color: #F9FAF8;
+    flex-wrap: wrap;
 }
 
 .small-header {
